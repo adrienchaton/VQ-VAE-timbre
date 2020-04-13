@@ -1,3 +1,1 @@
-# MUSICAL TIMBRE TRANSFER WITH QUANTIZED NEURAL SUBTRACTIVE SOUND SYNTHESIS
-
-Anonymously hosting complementary materials and codes for the corresponding ISMIR 2020 submission.
+[webpage](https://anon-248.github.io/VQ-VAE-timbre/)
