@@ -20,12 +20,7 @@ The mapping is performed with the following analysis.
 
 <p align="center"> <img src="figures/descriptor_ana.png"> </p>
 
-Descriptor-based synthesis can be done using the mapping to a given acoustic descriptor target.
-
-```diff
-+ this text is highlighted in green
-- this text is highlighted in red
-```
+Descriptor-based synthesis can be done using the mapping to a given acoustic descriptor target. Red denotes the controllable synthesis parameters.
 
 <p align="center"> <img src="figures/descriptor_map.png"> </p>
 
