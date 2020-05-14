@@ -23,3 +23,8 @@ The mapping is performed with the following analysis.
 Descriptor-based synthesis can be done using the mapping to a given acoustic descriptor target.
 
 <p align="center"> <img src="figures/descriptor_map.png"> </p>
+
+
+<!--
+<audio controls><source src="audio/rec_drum.wav"></audio>
+-->
