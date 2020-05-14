@@ -22,6 +22,11 @@ The mapping is performed with the following analysis.
 
 Descriptor-based synthesis can be done using the mapping to a given acoustic descriptor target.
 
+```diff
++ this text is highlighted in green
+- this text is highlighted in red
+```
+
 <p align="center"> <img src="figures/descriptor_map.png"> </p>
 
 
