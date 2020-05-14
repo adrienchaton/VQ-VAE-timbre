@@ -25,6 +25,27 @@ Descriptor-based synthesis can be done using the mapping to a given acoustic des
 <p align="center"> <img src="figures/descriptor_map.png"> </p>
 
 
+
+## Audio samples from the models
+
+..
+
+### Test set reconstructions
+
+...
+
+### Timbre transfer
+
+...
+
+### Descriptor-based synthesis
+
+...
+
+### Voice-driven sound synthesis
+
+...
+
 <!--
 <audio controls><source src="audio/rec_drum.wav"></audio>
 -->
