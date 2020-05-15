@@ -34,8 +34,17 @@ Descriptor-based synthesis can be done using the mapping to a given acoustic des
 
 <p align="center"> <img src="figures/descriptor_map.png"> </p>
 
+&nbsp;
 
 ## Timbre transfer
+
+The model can be used for timbre transfer from diverse sources, including non-musical sounds such as vocal imitations, to an invidual timbre. It learns a discrete representation of the trained timbre, a latent codebook into which any encoder outputs is matched. For instance, an input audio of a clarinet performance can be quantized into latent features learned from a violin dataset. Subsequently, the decoder synthesizses an audio that is the closest match to the input given the target timbre features.
+
+&nbsp;
+
+<p align="center"> <img src="figures/transfer.png"> </p>
+
+&nbsp;
 
 
 
