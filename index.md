@@ -35,6 +35,9 @@ Descriptor-based synthesis can be done using the mapping to a given acoustic des
 <p align="center"> <img src="figures/descriptor_map.png"> </p>
 
 
+## Timbre transfer
+
+
 
 ## Audio samples from the models
 
