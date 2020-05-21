@@ -50,7 +50,7 @@ The model can be used for timbre transfer from diverse sources, including non-mu
 
 ## Audio samples from the models
 
-..
+Page and repository in progress. Demonstration materials are uploaded within the next days.
 
 ### Test set reconstructions
 
