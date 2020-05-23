@@ -71,7 +71,7 @@ One model has been trained per individual timbre domain. The corresponding datas
 The models are trained on recording segments of about 1.5 second, we show some examples from the test set of each timbre domain and the corresponding VQ-VAE reconstruction. The first sample for each is an input and the second is the model reconstruction.
 
 
-<audio controls><source src="audio/reconstructions/basson_in.wav"></audio>
+<audio controls><source src="audio/reconstructions/basson_in.wav"></audio>  <audio controls><source src="audio/reconstructions/basson_rec.wav"></audio>
 
 <!--
 <audio controls><source src="audio/rec_drum.wav"></audio>
