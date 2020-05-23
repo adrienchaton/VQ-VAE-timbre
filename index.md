@@ -73,25 +73,25 @@ The models are trained on recording segments of about 1.5 second, we show some e
 
 basson: <audio controls><source src="audio/reconstructions/basson_in.wav"></audio>  <audio controls><source src="audio/reconstructions/basson_rec.wav"></audio>
 
-cello:
+cello: <audio controls><source src="audio/reconstructions/cello_in.wav"></audio>  <audio controls><source src="audio/reconstructions/cello_rec.wav"></audio>
 
-clarinet:
+clarinet: <audio controls><source src="audio/reconstructions/clarinet_in.wav"></audio>  <audio controls><source src="audio/reconstructions/clarinet_rec.wav"></audio>
 
-double-bass:
+double-bass: <audio controls><source src="audio/reconstructions/doublebass_in.wav"></audio>  <audio controls><source src="audio/reconstructions/doublebass_rec.wav"></audio>
 
-flute:
+flute: <audio controls><source src="audio/reconstructions/flute_in.wav"></audio>  <audio controls><source src="audio/reconstructions/flute_rec.wav"></audio>
 
-horn:
+horn: <audio controls><source src="audio/reconstructions/horn_in.wav"></audio>  <audio controls><source src="audio/reconstructions/horn_rec.wav"></audio>
 
-oboe:
+oboe: <audio controls><source src="audio/reconstructions/oboe_in.wav"></audio>  <audio controls><source src="audio/reconstructions/oboe_rec.wav"></audio>
 
-trumpet:
+trumpet: <audio controls><source src="audio/reconstructions/trumpet_in.wav"></audio>  <audio controls><source src="audio/reconstructions/trumpet_rec.wav"></audio>
 
-viola:
+viola: <audio controls><source src="audio/reconstructions/viola_in.wav"></audio>  <audio controls><source src="audio/reconstructions/viola_rec.wav"></audio>
 
-violin:
+violin: <audio controls><source src="audio/reconstructions/violin_in.wav"></audio>  <audio controls><source src="audio/reconstructions/violin_rec.wav"></audio>
 
-singing:
+singing: <audio controls><source src="audio/reconstructions/singing_in.wav"></audio>  <audio controls><source src="audio/reconstructions/singing_rec.wav"></audio>
 
 
 
