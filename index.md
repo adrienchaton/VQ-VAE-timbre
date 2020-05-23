@@ -1,3 +1,7 @@
+<!--
+<audio controls><source src="audio/rec_drum.wav"></audio>
+-->
+
 
 <link href="style.css" rel="stylesheet">
 
@@ -114,8 +118,3 @@ The models are trained on recording segments of about 1.5 second, we show some e
 **violin** <audio controls><source src="audio/reconstructions/violin_in.wav"></audio>  <audio controls><source src="audio/reconstructions/violin_rec.wav"></audio>
 
 **singing** <audio controls><source src="audio/reconstructions/singing_in.wav"></audio>  <audio controls><source src="audio/reconstructions/singing_rec.wav"></audio>
-
-
-<!--
-<audio controls><source src="audio/rec_drum.wav"></audio>
--->
