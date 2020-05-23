@@ -1,10 +1,15 @@
 audio {
+    transform: scale(0.5);
+}
+
+/*
+audio {
     filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
     width: 250px;
     height: 10px;
 }
 
-/*
+
 #player {
  width: 50%;
  height: 50%;
