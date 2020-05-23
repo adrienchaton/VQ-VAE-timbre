@@ -54,21 +54,21 @@ The model can be used for timbre transfer from diverse sources, including non-mu
 
 One model has been trained per individual timbre domain. The corresponding datasets are either isolated instrument performances from multitrack recordings (URMP, Phenicx) or singing voice (subset of VocalSet). The instruments of the orchestra are: basson, cello, clarinet, double-bass, flute, horn, oboe, trumpet, viola and violin.
 
-### Test set reconstructions
-
-The models are trained on recording segments of about 1.5 second, we show some examples from the test set of each timbre domain and the corresponding VQ-VAE reconstruction.
-
-### Timbre transfer
+### Descriptor-based synthesis
 
 ...
 
-### Descriptor-based synthesis
+### Timbre transfer
 
 ...
 
 ### Voice-driven sound synthesis
 
 ...
+
+### Test set reconstructions
+
+The models are trained on recording segments of about 1.5 second, we show some examples from the test set of each timbre domain and the corresponding VQ-VAE reconstruction.
 
 <!--
 <audio controls><source src="audio/rec_drum.wav"></audio>
