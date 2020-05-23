@@ -73,28 +73,27 @@ One model has been trained per individual timbre domain. The corresponding datas
 The models are trained on recording segments of about 1.5 second, we show some examples from the test set of each timbre domain and the corresponding VQ-VAE reconstruction. The first sample for each is an input and the second is the model reconstruction.
 
 
-basson: <audio controls><source src="audio/reconstructions/basson_in.wav"></audio>  <audio controls><source src="audio/reconstructions/basson_rec.wav"></audio>
+**basson** <audio controls><source src="audio/reconstructions/basson_in.wav"></audio>  <audio controls><source src="audio/reconstructions/basson_rec.wav"></audio>
 
-cello: <audio controls><source src="audio/reconstructions/cello_in.wav"></audio>  <audio controls><source src="audio/reconstructions/cello_rec.wav"></audio>
+**cello** <audio controls><source src="audio/reconstructions/cello_in.wav"></audio>  <audio controls><source src="audio/reconstructions/cello_rec.wav"></audio>
 
-clarinet: <audio controls><source src="audio/reconstructions/clarinet_in.wav"></audio>  <audio controls><source src="audio/reconstructions/clarinet_rec.wav"></audio>
+**clarinet** <audio controls><source src="audio/reconstructions/clarinet_in.wav"></audio>  <audio controls><source src="audio/reconstructions/clarinet_rec.wav"></audio>
 
-double-bass: <audio controls><source src="audio/reconstructions/doublebass_in.wav"></audio>  <audio controls><source src="audio/reconstructions/doublebass_rec.wav"></audio>
+**double-bass** <audio controls><source src="audio/reconstructions/doublebass_in.wav"></audio>  <audio controls><source src="audio/reconstructions/doublebass_rec.wav"></audio>
 
-flute: <audio controls><source src="audio/reconstructions/flute_in.wav"></audio>  <audio controls><source src="audio/reconstructions/flute_rec.wav"></audio>
+**flute** <audio controls><source src="audio/reconstructions/flute_in.wav"></audio>  <audio controls><source src="audio/reconstructions/flute_rec.wav"></audio>
 
-horn: <audio controls><source src="audio/reconstructions/horn_in.wav"></audio>  <audio controls><source src="audio/reconstructions/horn_rec.wav"></audio>
+**horn** <audio controls><source src="audio/reconstructions/horn_in.wav"></audio>  <audio controls><source src="audio/reconstructions/horn_rec.wav"></audio>
 
-oboe: <audio controls><source src="audio/reconstructions/oboe_in.wav"></audio>  <audio controls><source src="audio/reconstructions/oboe_rec.wav"></audio>
+**oboe** <audio controls><source src="audio/reconstructions/oboe_in.wav"></audio>  <audio controls><source src="audio/reconstructions/oboe_rec.wav"></audio>
 
-trumpet: <audio controls><source src="audio/reconstructions/trumpet_in.wav"></audio>  <audio controls><source src="audio/reconstructions/trumpet_rec.wav"></audio>
+**trumpet** <audio controls><source src="audio/reconstructions/trumpet_in.wav"></audio>  <audio controls><source src="audio/reconstructions/trumpet_rec.wav"></audio>
 
-viola: <audio controls><source src="audio/reconstructions/viola_in.wav"></audio>  <audio controls><source src="audio/reconstructions/viola_rec.wav"></audio>
+**viola** <audio controls><source src="audio/reconstructions/viola_in.wav"></audio>  <audio controls><source src="audio/reconstructions/viola_rec.wav"></audio>
 
-violin: <audio controls><source src="audio/reconstructions/violin_in.wav"></audio>  <audio controls><source src="audio/reconstructions/violin_rec.wav"></audio>
+**violin** <audio controls><source src="audio/reconstructions/violin_in.wav"></audio>  <audio controls><source src="audio/reconstructions/violin_rec.wav"></audio>
 
-singing: <audio controls><source src="audio/reconstructions/singing_in.wav"></audio>  <audio controls><source src="audio/reconstructions/singing_rec.wav"></audio>
-
+**singing** <audio controls><source src="audio/reconstructions/singing_in.wav"></audio>  <audio controls><source src="audio/reconstructions/singing_rec.wav"></audio>
 
 
 <!--
