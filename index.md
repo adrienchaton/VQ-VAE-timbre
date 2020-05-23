@@ -62,7 +62,11 @@ One model has been trained per individual timbre domain. The corresponding datas
 
 ### Timbre transfer
 
-...
+A model is trained on a target timbre, we input performance excerpts from other sources (unseen during training) and transfer them to the target timbre. The first sample for each is a source audio and the second is the conversion ouput by the model.
+
+**horn → singing**
+
+**trumpet → singing**
 
 ### Voice-driven sound synthesis
 
