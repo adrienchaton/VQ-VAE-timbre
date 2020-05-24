@@ -24,7 +24,7 @@
 
 ## Details of the mapping method for descriptor-based synthesis
 
-Following the notations from the paper, we detail the procedure for mapping the discrete latent space with a signal descriptor. For instance acoustic properties such as centroid, bandwidth or fundamental frequency. And then using this mapping to control synthesis with a descriptor target. We call this *descriptor-based synthesis*, which is done without iterative search but with direct selection of the best matching latent features. The operator that we call *descriptor* can be any signal descriptors, we use the spectral features implemented in [librosa](https://librosa.github.io/librosa/feature.html#spectral-features).
+Following the notations from the paper, we detail the procedure for mapping the discrete latent space with a signal descriptor. For instance acoustic properties such as centroid, bandwidth or fundamental frequency. And then using this mapping to control synthesis with a descriptor target. We call this *descriptor-based synthesis*, which is done without iterative search but with direct selection of the best matching latent features. The operator that we call *descriptor* can be any signal descriptors, we use the spectral features implemented in [librosa](https://librosa.github.io/librosa/feature.html#spectral-features). Fundamental frequency estimate is computed with the [PyWorldVocoder](https://github.com/JeremyCCHsu/Python-Wrapper-for-World-Vocoder).
 
 &nbsp;
 
@@ -71,6 +71,10 @@ One VQ-VAE model has been trained per individual timbre domain. The correspondin
 ### Descriptor-based synthesis
 
 To demonstrate to possiblity to control synthesis from some acoustic descriptor targets, we analyze the VQ-VAE discrete latent space and traverse the latent codes in an increasing order with respect to different descriptors. As explained in the upper details, we can use the sorted codebook to map with some user-defined descriptor targets. We provide the sound output as well as the spectrogam and descriptor curve that have been synthesized.
+
+| **bandwidth in cello** | <audio controls><source src="audio/desc_based/cello_bandwidth.wav"></audio> |
+|  :---:  | :---:  |
+|  <p align="center"> <img src="audio/desc_based/cello_bandwidth_desc.png"> </p>  |  <p align="center"> <img src="audio/desc_based/cello_bandwidth_spec.png"> </p> |
 
 &nbsp;
 
