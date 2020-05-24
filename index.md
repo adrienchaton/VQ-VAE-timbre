@@ -72,15 +72,13 @@ One VQ-VAE model has been trained per individual timbre domain. The correspondin
 
 To demonstrate to possiblity to control synthesis from some acoustic descriptor targets, we analyze the VQ-VAE discrete latent space and traverse the latent codes in an increasing order with respect to different descriptors. As explained in the upper details, we can use the sorted codebook to map with some user-defined descriptor targets. We provide the sound output as well as the descriptor curve and spectrogam that have been synthesized.
 
-<!--
-| **bandwidth in cello** | <audio controls><source src="audio/desc_based/cello_bandwidth.wav"></audio> |
-|  :---:  | :---:  |
-|  <img src="audio/desc_based/cello_bandwidth_desc.png" width="100%" height="50%">  |  <img src="audio/desc_based/cello_bandwidth_spec.png" width="100%" height="50%"> |
--->
-
 | **bandwidth in cello** | <audio controls><source src="audio/desc_based/cello_bandwidth.wav"></audio> |
 |  :---:  | :---:  |
 |  <img src="audio/desc_based/cello_bandwidth_desc.png" height="50%">  |  <img src="audio/desc_based/cello_bandwidth_spec.png" height="50%"> |
+
+| **fundamental in singing (fem.)** | <audio controls><source src="audio/desc_based/singingF_fundamental.wav"></audio> |
+|  :---:  | :---:  |
+|  <img src="audio/desc_based/singingF_fundamental_desc.png" height="50%">  |  <img src="audio/desc_based/singingF_fundamental_spec.png" height="50%"> |
 
 &nbsp;
 
