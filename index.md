@@ -18,7 +18,7 @@
 
 ## Details of the mapping method for descriptor-based synthesis
 
-Following the notations from the paper, we detail the procedure for mapping the discrete latent space with a signal descriptor. For instance acoustic properties such as centroid, bandwidth or fundamental frequency. And then using this mapping to control synthesis with a descriptor target. We call this descriptor-based synthesis, which is done without iterative search but with direct selection of the best matching latent features. The operator that we call *descriptor* can be any signal descriptors, we use the spectral features implemented in [librosa](https://librosa.github.io/librosa/feature.html#spectral-features).
+Following the notations from the paper, we detail the procedure for mapping the discrete latent space with a signal descriptor. For instance acoustic properties such as centroid, bandwidth or fundamental frequency. And then using this mapping to control synthesis with a descriptor target. We call this *descriptor-based synthesis*, which is done without iterative search but with direct selection of the best matching latent features. The operator that we call *descriptor* can be any signal descriptors, we use the spectral features implemented in [librosa](https://librosa.github.io/librosa/feature.html#spectral-features).
 
 &nbsp;
 
@@ -44,7 +44,7 @@ Descriptor-based synthesis can be done using the mapping to a given acoustic des
 
 ## Timbre transfer
 
-The model can be used for timbre transfer from diverse sources, including non-musical sounds such as vocal imitations, to an invidual timbre. It learns a discrete representation of the trained timbre, a latent codebook into which any encoder outputs is matched. For instance, an input audio of a clarinet performance can be quantized into latent features learned from a violin dataset. Subsequently, the decoder synthesizses an audio that is the closest match to the input given the target timbre features.
+The model can be used for timbre transfer from diverse sources, including non-musical sounds such as vocal imitations, to an invidual timbre. It learns a discrete representation of the trained timbre, a latent codebook into which any encoder outputs is matched. For instance, an input audio of a clarinet performance can be quantized into latent features learned from a violin dataset. Subsequently, the decoder synthesizes an audio that is the closest match to the input given the target timbre features.
 
 &nbsp;
 
@@ -58,7 +58,7 @@ The model can be used for timbre transfer from diverse sources, including non-mu
 
 *Page and repository in progress. Demonstration materials are uploaded within the next days.*
 
-One model has been trained per individual timbre domain. The corresponding datasets are either isolated instrument performances from multitrack recordings (URMP, Phenicx) or singing voice (subset of VocalSet). The instruments of the orchestra are: basson, cello, clarinet, double-bass, flute, horn, oboe, trumpet, viola and violin.
+One VQ-VAE model has been trained per individual timbre domain. The corresponding datasets are either isolated instrument performances from multitrack recordings (URMP, Phenicx) or singing voice (subset of VocalSet). The instruments of the orchestra are: basson, cello, clarinet, double-bass, flute, horn, oboe, trumpet, viola and violin.
 
 ### Descriptor-based synthesis
 
@@ -66,7 +66,7 @@ One model has been trained per individual timbre domain. The corresponding datas
 
 ### Timbre transfer
 
-A model is trained on a target timbre, we input performance excerpts from other sources (unseen during training) and transfer them to the target timbre.
+A model is trained on a target timbre, we input performance excerpts from other sources (unseen during training) and transfer them to the learned target timbre.
 
 **clarinet → trumpet** <audio controls><source src="audio/timbre_transfer/clarinet_to_trumpet_src.wav"></audio>  <audio controls><source src="audio/timbre_transfer/clarinet_to_trumpet_out.wav"></audio>
 
