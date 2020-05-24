@@ -80,7 +80,7 @@ To demonstrate to possiblity to control synthesis from some acoustic descriptor 
 
 | **bandwidth in cello** | <audio controls><source src="audio/desc_based/cello_bandwidth.wav"></audio> |
 |  :---:  | :---:  |
-|  <img src="audio/desc_based/cello_bandwidth_desc.png">  |  <img src="audio/desc_based/cello_bandwidth_spec.png"> |
+|  <img src="audio/desc_based/cello_bandwidth_desc.png" height="50%">  |  <img src="audio/desc_based/cello_bandwidth_spec.png" height="50%"> |
 
 &nbsp;
 
