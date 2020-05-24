@@ -88,6 +88,26 @@ To demonstrate to possiblity to control synthesis from some acoustic descriptor 
 |  :---:  | :---:  |
 |  <img src="audio/desc_based/singing_centroid_desc.png" height="50%">  |  <img src="audio/desc_based/singing_centroid_spec.png" height="50%"> |
 
+| **fundamental in trumpet** | <audio controls><source src="audio/desc_based/trumpet_fundamental.wav"></audio> |
+|  :---:  | :---:  |
+|  <img src="audio/desc_based/trumpet_fundamental_desc.png" height="50%">  |  <img src="audio/desc_based/trumpet_fundamental_spec.png" height="50%"> |
+
+| **centroid in viola** | <audio controls><source src="audio/desc_based/viola_centroid.wav"></audio> |
+|  :---:  | :---:  |
+|  <img src="audio/desc_based/viola_centroid_desc.png" height="50%">  |  <img src="audio/desc_based/viola_centroid_spec.png" height="50%"> |
+
+| **bandwidth in violin** | <audio controls><source src="audio/desc_based/violin_bandwidth.wav"></audio> |
+|  :---:  | :---:  |
+|  <img src="audio/desc_based/violin_bandwidth_desc.png" height="50%">  |  <img src="audio/desc_based/violin_bandwidth_spec.png" height="50%"> |
+
+| **centroid in violin** | <audio controls><source src="audio/desc_based/violin_centroid.wav"></audio> |
+|  :---:  | :---:  |
+|  <img src="audio/desc_based/violin_centroid_desc.png" height="50%">  |  <img src="audio/desc_based/violin_centroid_spec.png" height="50%"> |
+
+| **fundamental in violin** | <audio controls><source src="audio/desc_based/violin_fundamental.wav"></audio> |
+|  :---:  | :---:  |
+|  <img src="audio/desc_based/violin_fundamental_desc.png" height="50%">  |  <img src="audio/desc_based/violin_fundamental_spec.png" height="50%"> |
+
 &nbsp;
 
 ### Timbre transfer
