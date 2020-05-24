@@ -76,9 +76,17 @@ To demonstrate to possiblity to control synthesis from some acoustic descriptor 
 |  :---:  | :---:  |
 |  <img src="audio/desc_based/cello_bandwidth_desc.png" height="50%">  |  <img src="audio/desc_based/cello_bandwidth_spec.png" height="50%"> |
 
-| **fundamental in singing (fem.)** | <audio controls><source src="audio/desc_based/singingF_fundamental.wav"></audio> |
+| **fundamental in singing (female only)** | <audio controls><source src="audio/desc_based/singingF_fundamental.wav"></audio> |
 |  :---:  | :---:  |
 |  <img src="audio/desc_based/singingF_fundamental_desc.png" height="50%">  |  <img src="audio/desc_based/singingF_fundamental_spec.png" height="50%"> |
+
+| **fundamental in singing** | <audio controls><source src="audio/desc_based/singing_fundamental.wav"></audio> |
+|  :---:  | :---:  |
+|  <img src="audio/desc_based/singing_fundamental_desc.png" height="50%">  |  <img src="audio/desc_based/singing_fundamental_spec.png" height="50%"> |
+
+| **centroid in singing** | <audio controls><source src="audio/desc_based/singing_centroid.wav"></audio> |
+|  :---:  | :---:  |
+|  <img src="audio/desc_based/singing_centroid_desc.png" height="50%">  |  <img src="audio/desc_based/singing_centroid_spec.png" height="50%"> |
 
 &nbsp;
 
