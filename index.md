@@ -95,7 +95,7 @@ A model is trained on a target timbre, we input performance excerpts from other 
 
 ### Voice-driven sound synthesis
 
-Besides converting singing voice into an instrument sound, we also consider inputting non-singing human voice. We take some samples from the VocalSketch database, these were crowd-sourced in uncontrolled recording conditions by asking participants to immitate some diverse targets with their voice. Such concepts would be hardly described into musical terms, however they are rather intuitively expressed by vocal imitation. This can be a new mean to drive a sound synthesis model, which do not require any particular knowledge for interaction. The first sample is a raw vocal imitation and the second a transfer to an instrument timbre.
+Besides converting singing voice into an instrument sound, we also consider inputting non-singing human voice. We take some samples from the VocalSketch database, these were crowd-sourced in uncontrolled recording conditions by asking participants to immitate some diverse targets with their voice. Such concepts would be hardly described into musical terms, however they are rather intuitively expressed by vocal imitation. This can be a new mean to drive a sound synthesis model, which do not require any particular knowledge for interaction. The first sample is a raw vocal imitation and the second a transfer to an instrument timbre. *Concept* refers to the text descriptions in VocalSketch that were given to imitate.
 
 | concept → instrument | input | transfer |
 |  :---:  | :---:  | :---:  |
