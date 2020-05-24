@@ -2,9 +2,9 @@
 <audio controls><source src="audio/rec_drum.wav"></audio>
 -->
 
-
+<!--
 <link href="style.css" rel="stylesheet">
-
+-->
 
 <script type="text/javascript"> 
       // Show button
