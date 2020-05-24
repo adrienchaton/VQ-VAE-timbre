@@ -66,9 +66,13 @@ The model can be used for timbre transfer from diverse sources, including non-mu
 
 One VQ-VAE model has been trained per individual timbre domain. The corresponding datasets are either isolated instrument performances from multitrack recordings (URMP, Phenicx) or singing voice (subset of VocalSet). The instruments of the orchestra are: basson, cello, clarinet, double-bass, flute, horn, oboe, trumpet, viola and violin.
 
+&nbsp;
+
 ### Descriptor-based synthesis
 
 ...
+
+&nbsp;
 
 ### Timbre transfer
 
@@ -87,6 +91,8 @@ A model is trained on a target timbre, we input performance excerpts from other 
 |**trumpet → clarinet**|  <audio controls><source src="audio/timbre_transfer/trumpet_to_clarinet_src.wav"></audio> | <audio controls><source src="audio/timbre_transfer/trumpet_to_clarinet_out.wav"></audio>|
 |**trumpet → singing**|  <audio controls><source src="audio/timbre_transfer/trumpet_to_singing_src.wav"></audio> | <audio controls><source src="audio/timbre_transfer/trumpet_to_singing_out.wav"></audio>|
 
+&nbsp;
+
 ### Voice-driven sound synthesis
 
 Besides converting singing voice into an instrument sound, we also consider inputting non-singing human voice. We take some samples from the VocalSketch database, these were crowd-sourced in uncontrolled recording conditions by asking participants to immitate some diverse targets with their voice. Such concepts would be hardly described into musical terms, however they are rather intuitively expressed by vocal imitation. This can be a new mean to drive a sound synthesis model, which do not require any particular knowledge for interaction. The first sample is a raw vocal imitation and the second a transfer to an instrument timbre.
@@ -101,6 +107,8 @@ Besides converting singing voice into an instrument sound, we also consider inpu
 |  |  |  |
 |  |  |  |
 |  |  |  |
+
+&nbsp;
 
 ### Test set reconstructions
 
