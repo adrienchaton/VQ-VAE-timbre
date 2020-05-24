@@ -68,25 +68,27 @@ One VQ-VAE model has been trained per individual timbre domain. The correspondin
 
 A model is trained on a target timbre, we input performance excerpts from other sources (unseen during training) and transfer them to the learned target timbre.
 
-**clarinet → trumpet**  <audio controls><source src="audio/timbre_transfer/clarinet_to_trumpet_src.wav"></audio>  <audio controls><source src="audio/timbre_transfer/clarinet_to_trumpet_out.wav"></audio>
+| instruments | source | target |
+|  :---:  | :---:  | :---:  |
+|**clarinet → trumpet**|  <audio controls><source src="audio/timbre_transfer/clarinet_to_trumpet_src.wav"></audio> | <audio controls><source src="audio/timbre_transfer/clarinet_to_trumpet_out.wav"></audio>|
 
-**clarinet → violin**  <audio controls><source src="audio/timbre_transfer/clarinet_to_violin_src.wav"></audio>  <audio controls><source src="audio/timbre_transfer/clarinet_to_violin_out.wav"></audio>
+|**clarinet → violin**|  <audio controls><source src="audio/timbre_transfer/clarinet_to_violin_src.wav"></audio> | <audio controls><source src="audio/timbre_transfer/clarinet_to_violin_out.wav"></audio>|
 
-**horn → cello**  <audio controls><source src="audio/timbre_transfer/horn_to_cello_src.wav"></audio>  <audio controls><source src="audio/timbre_transfer/horn_to_cello_out.wav"></audio>
+|**horn → cello**|  <audio controls><source src="audio/timbre_transfer/horn_to_cello_src.wav"></audio> | <audio controls><source src="audio/timbre_transfer/horn_to_cello_out.wav"></audio>|
 
-**horn → singing**  <audio controls><source src="audio/timbre_transfer/horn_to_singing_src.wav"></audio>  <audio controls><source src="audio/timbre_transfer/horn_to_singing_out.wav"></audio>
+|**horn → singing**|  <audio controls><source src="audio/timbre_transfer/horn_to_singing_src.wav"></audio> | <audio controls><source src="audio/timbre_transfer/horn_to_singing_out.wav"></audio>|
 
-**oboe → viola**  <audio controls><source src="audio/timbre_transfer/oboe_to_viola_src.wav"></audio>  <audio controls><source src="audio/timbre_transfer/oboe_to_viola_out.wav"></audio>
+|**oboe → viola**|  <audio controls><source src="audio/timbre_transfer/oboe_to_viola_src.wav"></audio> | <audio controls><source src="audio/timbre_transfer/oboe_to_viola_out.wav"></audio>|
 
-**saxophone → cello**  <audio controls><source src="audio/timbre_transfer/saxophone_to_cello_src.wav"></audio>  <audio controls><source src="audio/timbre_transfer/saxophone_to_cello_out.wav"></audio>
+|**saxophone → cello**|  <audio controls><source src="audio/timbre_transfer/saxophone_to_cello_src.wav"></audio> | <audio controls><source src="audio/timbre_transfer/saxophone_to_cello_out.wav"></audio>|
 
-**saxophone → horn**  <audio controls><source src="audio/timbre_transfer/saxophone_to_horn_src.wav"></audio>  <audio controls><source src="audio/timbre_transfer/saxophone_to_horn_out.wav"></audio>
+|**saxophone → horn**|  <audio controls><source src="audio/timbre_transfer/saxophone_to_horn_src.wav"></audio> | <audio controls><source src="audio/timbre_transfer/saxophone_to_horn_out.wav"></audio>|
 
-**singing → violin**  <audio controls><source src="audio/timbre_transfer/singing_to_violin_src.wav"></audio>  <audio controls><source src="audio/timbre_transfer/singing_to_violin_out.wav"></audio>
+|**singing → violin**|  <audio controls><source src="audio/timbre_transfer/singing_to_violin_src.wav"></audio> | <audio controls><source src="audio/timbre_transfer/singing_to_violin_out.wav"></audio>|
 
-**trumpet → clarinet**  <audio controls><source src="audio/timbre_transfer/trumpet_to_clarinet_src.wav"></audio>  <audio controls><source src="audio/timbre_transfer/trumpet_to_clarinet_out.wav"></audio>
+|**trumpet → clarinet**|  <audio controls><source src="audio/timbre_transfer/trumpet_to_clarinet_src.wav"></audio> | <audio controls><source src="audio/timbre_transfer/trumpet_to_clarinet_out.wav"></audio>|
 
-**trumpet → singing**  <audio controls><source src="audio/timbre_transfer/trumpet_to_singing_src.wav"></audio>  <audio controls><source src="audio/timbre_transfer/trumpet_to_singing_out.wav"></audio>
+|**trumpet → singing**|  <audio controls><source src="audio/timbre_transfer/trumpet_to_singing_src.wav"></audio> | <audio controls><source src="audio/timbre_transfer/trumpet_to_singing_out.wav"></audio>|
 
 ### Voice-driven sound synthesis
 
