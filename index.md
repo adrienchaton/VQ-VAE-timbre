@@ -70,7 +70,7 @@ One VQ-VAE model has been trained per individual timbre domain. The correspondin
 
 ### Descriptor-based synthesis
 
-...
+To demonstrate to possiblity to control synthesis from some acoustic descriptor targets, we analyze the VQ-VAE discrete latent space and traverse the latent codes in an increasing order with respect to different descriptors. We provide the sound output as well as the descriptor curve that has been synthesized. As explained in the upper details, we can use the sorted codebook to map with some user-defined descriptor targets.
 
 &nbsp;
 
