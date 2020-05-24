@@ -99,14 +99,14 @@ Besides converting singing voice into an instrument sound, we also consider inpu
 
 | concept → instrument | input | transfer |
 |  :---:  | :---:  | :---:  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| **aliendiscovery → viola** | <audio controls><source src="audio/voice_driven/aliendiscovery_to_viola_src.wav"></audio> | <audio controls><source src="audio/voice_driven/aliendiscovery_to_viola_out.wav"></audio> |
+| **banjo → cello** | <audio controls><source src="audio/voice_driven/banjo_to_cello_src.wav"></audio> | <audio controls><source src="audio/voice_driven/banjo_to_cello_out.wav"></audio> |
+| **bongos → horn** | <audio controls><source src="audio/voice_driven/bongos_to_horn_src.wav"></audio> | <audio controls><source src="audio/voice_driven/bongos_to_horn_out.wav"></audio> |
+| **cashregister → clarinet** | <audio controls><source src="audio/voice_driven/cashregister_to_clarinet_src.wav"></audio> | <audio controls><source src="audio/voice_driven/cashregister_to_clarinet_out.wav"></audio> |
+| **cat → clarinet** | <audio controls><source src="audio/voice_driven/cat_to_clarinet_src.wav"></audio> | <audio controls><source src="audio/voice_driven/cat_to_clarinet_out.wav"></audio> |
+| **crow → viola** | <audio controls><source src="audio/voice_driven/crow_to_viola_src.wav"></audio> | <audio controls><source src="audio/voice_driven/crow_to_viola_out.wav"></audio> |
+| **darkattackbass → horn** | <audio controls><source src="audio/voice_driven/darkattackbass_to_horn_src.wav"></audio> | <audio controls><source src="audio/voice_driven/darkattackbass_to_horn_out.wav"></audio> |
+| **feedback → violin** | <audio controls><source src="audio/voice_driven/feedback_to_violin_src.wav"></audio> | <audio controls><source src="audio/voice_driven/feedback_to_violin_out.wav"></audio> |
 
 &nbsp;
 
