@@ -15,9 +15,6 @@
       } 
 </script>
 
-&nbsp;
-
-**The page display depends on the browser used (e.g. audio players). All audio samples are located in https://github.com/anon-248/VQ-VAE-timbre/tree/master/audio ; please leave us an issue if the page is not showing properly.**
 
 &nbsp;
 
