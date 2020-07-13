@@ -1,3 +1,5 @@
-Additional materials for the submission to ISMIR 2020: Vector-Quantized Timbre Representation.
+Demonstration materials for,
+
+Adrien Bitton, Philippe Esling and Tatsuya Harada, Vector-Quantized Timbre Representation (available on Arxiv).
 
 [webpage](https://adrienchaton.github.io/VQ-VAE-timbre/)
